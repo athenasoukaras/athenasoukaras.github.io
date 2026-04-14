@@ -1,0 +1,190 @@
+body {
+    margin:0px;
+    padding:0px;
+    font-family: Verdana, sans-serif;
+    background-color:#f1f2f5;
+    font-size:17px;
+    color:#1a1e2b;
+    
+}
+nav > hamburger {
+    display:none;
+}
+* {
+    box-sizing:border-box;
+}
+nav {
+    background-color: #f1f2f5;
+    background-image:linear-gradient(to right, #BFCCD9, #BFCCD9, #9faebd);
+    display:block;
+    width:100%;
+    position:sticky;
+    top:0;
+    color: #1a1e2b;
+}
+nav > aside > a , nav > ul > li > a {
+    color:inherit;
+    text-decoration:none;
+    transition:0.15s;
+}
+nav > ul > li , nav > ul > li > a, nav > ul , nav > aside {
+    display:inline-block;
+    padding:0;
+    margin:0;
+}
+
+nav > ul > li > a{
+    border-left:#1a1e2b solid 1px;
+}
+
+nav > ul {
+    float:right;
+}
+nav > aside , nav > ul > li > a {
+    padding:1em 1.5em;
+}
+nav > ul > li > a:hover {
+    color:#dcdee0;
+    background-image:linear-gradient(to right, #9cabbb, #9cabbb, #8696a7);
+}
+a {
+    color:#516c86;
+    transition:0.25s;
+}
+a:hover {
+    color:#708aa1;
+}
+header {
+    padding:4.25em 10em;
+    background-image:linear-gradient(#BFCCD9, #9faebd);
+    color:#f1f2f5;
+}
+header > * {
+    text-align:center;
+}
+
+section {
+    padding:2em 16.7em;
+    line-height:1.5em;
+}
+#intro-image:hover, #mobile-intro-image:hover {
+    transform: scale(1.05);
+}
+section:nth-child(even) {
+    background-color: #e2e4eb;
+
+}
+img {
+    width:100%;
+    margin:1em;
+    border-radius:7.5px;
+    display:inline-block;
+}
+#intro-image {
+    width:25%;
+    transition:0.2s;
+}
+#intro-text {
+    width:75%;
+    vertical-align:top;
+}
+#mobile-intro-image {
+    display:none;
+    transition:0.2s;
+}
+.homeCaro {
+    height:30vw;
+    width:50%;
+    text-align:center;
+    margin:auto;
+    background-color:#3f465f;
+    border-radius:10px;
+    color:#dcdee0;
+    padding:1em;
+}
+#homeCaroDesc {
+    margin:0;
+    padding:0;
+}
+
+
+footer {
+    background-image:linear-gradient(#BFCCD9, #9faebd);
+    padding:3em 16.7em;
+}
+footer > p {
+    text-align:center;
+}
+footer > p > a {
+    color:#f1f2f5;
+    transition:0.25s;
+}
+footer > p > a:hover {
+    color:#d0d4e2;
+}
+iframe {
+    width:100%;
+    height:75vh;
+}
+caro > * {
+    width:100%;
+    height:32vw;
+}
+caro {
+    width:80%;
+    margin:auto;
+    display:block;
+}
+button {
+    background-image:linear-gradient(#BFCCD9, #9faebd);
+    border:1px #1a1e2b solid;
+    color:#1a1e2b;
+    border-radius:2em;
+    padding:0.5em;
+    transition:0.25s;
+}
+button:hover {
+    color:#3f465f;
+    background-image:linear-gradient(#d3e0ec, #c5d4e4);
+    border-color:#3f465f;
+    transform: scale(1.075);
+}
+#addB {
+    float:right;
+}
+#workdesc, #certDesc {
+    text-align:center;
+}
+#secrettext {
+    margin:0 auto;
+    display:block;
+    background-color:#e2e4eb;
+    border:none;
+    color:#e2e4eb;
+}
+#secret {
+    background-image:url(../images/tengaleng.png);
+}
+
+#img1 {
+    background-image:url(../images/htmlcss.png);
+    color:#dcdee0;
+}
+
+#img2 {
+    background-image:url(../images/theatre.png);
+    color:#1a1e2b;
+}
+
+#img3 {
+    background-image:url(../images/backgroundgame.png);
+    color:#1a1e2b;
+}
+
+#img1, #img2, #img3 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:0.2s;
+}
+
