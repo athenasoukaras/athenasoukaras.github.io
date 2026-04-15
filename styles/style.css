@@ -56,7 +56,11 @@ a:hover {
 }
 header {
     padding:4.25em 10em;
-    background-image:linear-gradient(#BFCCD9, #9faebd);
+    /*background-image:linear-gradient(#BFCCD9, #9faebd);*/
+    background-image:url(../images/pcheaderbg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color:#f1f2f5;
 }
 header > * {
