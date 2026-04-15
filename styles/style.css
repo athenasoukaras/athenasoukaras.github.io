@@ -168,6 +168,7 @@ button:hover {
 }
 #secret {
     background-image:url(../images/tengaleng.png);
+    background-size:100% 100%;
 }
 
 #img1 {
