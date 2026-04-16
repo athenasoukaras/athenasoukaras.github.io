@@ -38,7 +38,9 @@
         padding-left:4em;
         background-image:linear-gradient(#BFCCD9, #BFCCD9, #9faebd);
     }
-    
+    header {
+        padding:4.25em 2em;
+    }
     section {
         padding:2em;
         line-height: 2em;
