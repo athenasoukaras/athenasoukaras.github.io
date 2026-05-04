@@ -193,3 +193,7 @@ button:hover {
     transition:0.2s;
 }
 
+::selection {
+    background-color: #9faebd;
+    color:#e2e4eb;
+}
