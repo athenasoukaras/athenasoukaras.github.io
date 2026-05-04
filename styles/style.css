@@ -7,6 +7,8 @@ body {
     color:#1a1e2b;
     
 }
+
+
 nav > hamburger {
     display:none;
 }
@@ -21,6 +23,8 @@ nav {
     position:sticky;
     top:0;
     color: #1a1e2b;
+    box-shadow: #9faebd 0 1px 5px;
+
 }
 nav > aside > a , nav > ul > li > a {
     color:inherit;
@@ -146,12 +150,15 @@ button {
     border-radius:2em;
     padding:0.5em;
     transition:0.25s;
+    box-shadow: #9faebd 0 2px 3px;
 }
 button:hover {
     color:#3f465f;
     background-image:linear-gradient(#d3e0ec, #c5d4e4);
     border-color:#3f465f;
     transform: scale(1.075);
+    box-shadow: #d0d4e2 0 2px 3px;
+
 }
 #addB {
     float:right;
@@ -192,8 +199,44 @@ button:hover {
     background-size: cover;
     transition:0.2s;
 }
-
+img, caro {
+    box-shadow: #9cabbb 0 2px 2px;
+}
 ::selection {
     background-color: #9faebd;
     color:#e2e4eb;
+}
+h3 {
+    padding:0.5em 1em;
+    background-color:#BFCCD9;
+    box-shadow: #9faebd 1px 2px 3px;
+}
+footer > p > .externalLinks {
+    color:inherit;
+}
+footer > p > .externalLinks:hover {
+    color:#708aa1;
+}
+#transitionbox {
+    position:fixed;
+    top:0;
+    height:100vh;
+    width:100vw;
+    background-color:#516c86;
+    animation-name: awesomeTransition;
+     animation-duration: 0.5s;
+     opacity:0%;
+     animation-fill-mode: forwards;
+}
+
+@keyframes awesomeTransition {
+    0% {
+        opacity:100%;    
+        display:block;
+
+    }
+    100% {
+        opacity:0%;
+        display:none;
+    }
 }
