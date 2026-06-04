@@ -236,6 +236,32 @@ footer > p > .externalLinks:hover {
      opacity:0%;
      animation-fill-mode: forwards;*/
 }
+/*
+#darkMode {
+    position:fixed;
+    bottom:0;
+    margin:2em;
+}
+
+#darkModeSetting {
+    color:#e2e4eb;
+    background-color:#1a1e2b;
+}
+
+#darkModeSetting > main > section:nth-child(even) {
+    background-color:#0d0f16;
+}
+#darkModeSetting > main > section > a {
+    color:#708aa1;
+}
+    */
+
+#carosoloe {
+    display:flex;
+}
+#carosoloe > button:nth-child(2) {
+    order:1;
+}
 @keyframes awesomeTransition {
     0% {
         opacity:100%;    

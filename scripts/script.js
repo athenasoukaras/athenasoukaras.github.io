@@ -10,3 +10,7 @@ function navigation() {
         document.getElementsByTagName("ul")[0].setAttribute("id", "hide");
     }
 }
+
+//function darkmode() {
+//    document.getElementsByTagName("body")[0].setAttribute("id", "darkModeSetting");
+//}

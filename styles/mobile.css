@@ -86,4 +86,10 @@
         width:100%;
         height:75vw;
     }
+    #carosoloe {
+        display:block;
+    }
+    #carosoloe > button:nth-child(2) {
+        order:0;
+    }
 }
