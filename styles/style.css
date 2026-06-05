@@ -95,14 +95,12 @@ img {
 #intro-image {
     width:25%;
     transition:0.2s;
+    order:1;
 }
-#intro-text {
-    width:75%;
-    vertical-align:top;
-}
-#mobile-intro-image {
-    display:none;
-    transition:0.2s;
+
+#welcome {
+    display:flex;
+    align-items:flex-start;
 }
 .homeCaro {
     height:30vw;

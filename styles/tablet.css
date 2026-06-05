@@ -23,4 +23,8 @@
     nav > ul > li:nth-child(4)  > a{
         border-right:none;
     }
+    #intro-image {
+        width:27.5%;
+    }
+    
 }
