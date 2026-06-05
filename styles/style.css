@@ -212,8 +212,9 @@ img, caro {
 ::selection {
     background-color: #9faebd;
     color:#e2e4eb;
-    
-}
+    /*text-shadow:#3f465f 1px 1px 1px,#3f465f -1px 1px 1px,#3f465f -1px -1px 1px,#3f465f 1px -1px 1px;
+    */
+    }
 h3 {
     padding:0.5em 1em;
     background-color:#BFCCD9;
