@@ -112,6 +112,7 @@ img {
     color:#dcdee0;
     padding:1em;
 }
+
 #homeCaroDesc {
     margin:0;
     padding:0;
@@ -217,6 +218,7 @@ img, caro {
     /*text-shadow:#3f465f 1px 1px 1px,#3f465f -1px 1px 1px,#3f465f -1px -1px 1px,#3f465f 1px -1px 1px;
     */
     }
+    
 h3 {
     padding:0.5em 1em;
     background-color:#BFCCD9;
